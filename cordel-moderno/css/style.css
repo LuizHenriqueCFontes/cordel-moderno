@@ -1,0 +1,68 @@
+:root{
+    --font-h1: "Passion One", sans-serif;
+    --font-pre: "Sriracha", cursive;
+    --font-address: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    min-height: 300px;
+    min-width: 770px;
+    max-width: 1700px;
+}
+
+
+main{
+    padding: 20px;
+    background-color: blue;
+}
+
+h1{
+    font-family: var(--font-h1);
+    font-weight: bold;
+    font-size: 8.0em;
+    margin: 0;
+    text-align: center;
+    padding-top: 80px;
+}
+
+header address{
+    font-family: var(--font-address);
+    text-align: center;
+
+}
+
+/*main{
+    min-width: 550px;
+    max-width: 1200px;
+    margin: auto;
+}*/
+
+article{
+    width: 100%;
+}
+
+pre{
+    font-family: var(--font-pre);
+    font-size: 3.5em;
+    font-weight: normal;
+    line-height: 2em;
+}
+
+.container-1{
+    background-image: url(../img/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: -20px;
+}
+
+.container-1 pre{
+    background-color: rgba(0, 0, 0, 0.262);
+    color: white;
+}
